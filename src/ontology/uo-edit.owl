@@ -419,6 +419,11 @@ Declaration(Class(<http://purl.obolibrary.org/obo/UO_0010075>))
 Declaration(Class(<http://purl.obolibrary.org/obo/UO_0010076>))
 Declaration(Class(<http://purl.obolibrary.org/obo/UO_0010077>))
 Declaration(Class(<http://purl.obolibrary.org/obo/UO_0010080>))
+Declaration(Class(<http://purl.obolibrary.org/obo/UO_1000000>))
+Declaration(Class(<http://purl.obolibrary.org/obo/UO_1000001>))
+Declaration(Class(<http://purl.obolibrary.org/obo/UO_1000002>))
+Declaration(Class(<http://purl.obolibrary.org/obo/UO_1000003>))
+Declaration(Class(<http://purl.obolibrary.org/obo/UO_1000004>))
 Declaration(Class(<http://purl.obolibrary.org/obo/UO_1000008>))
 Declaration(Class(<http://purl.obolibrary.org/obo/UO_1000010>))
 Declaration(Class(<http://purl.obolibrary.org/obo/UO_1000011>))
@@ -862,6 +867,11 @@ Declaration(NamedIndividual(<http://purl.obolibrary.org/obo/UO_0010066>))
 Declaration(NamedIndividual(<http://purl.obolibrary.org/obo/UO_0010067>))
 Declaration(NamedIndividual(<http://purl.obolibrary.org/obo/UO_0010068>))
 Declaration(NamedIndividual(<http://purl.obolibrary.org/obo/UO_0010069>))
+Declaration(NamedIndividual(<http://purl.obolibrary.org/obo/UO_1000000>))
+Declaration(NamedIndividual(<http://purl.obolibrary.org/obo/UO_1000001>))
+Declaration(NamedIndividual(<http://purl.obolibrary.org/obo/UO_1000002>))
+Declaration(NamedIndividual(<http://purl.obolibrary.org/obo/UO_1000003>))
+Declaration(NamedIndividual(<http://purl.obolibrary.org/obo/UO_1000004>))
 Declaration(AnnotationProperty(<http://purl.obolibrary.org/obo/IAO_0000115>))
 Declaration(AnnotationProperty(oboInOwl:hasDbXref))
 Declaration(AnnotationProperty(oboInOwl:hasExactSynonym))
@@ -4296,6 +4306,47 @@ AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.ob
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/UO_0010080> "titer"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/UO_0010080> <http://purl.obolibrary.org/obo/UO_0000051>)
 
+# Class: <http://purl.obolibrary.org/obo/UO_1000000> (femtosecond)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/UO_1000000> "A second based unit which is equal to 10^[-15] seconds or one quadrillionth of a second."@en)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/UO_1000000> "femtosecond"@en)
+EquivalentClasses(<http://purl.obolibrary.org/obo/UO_1000000> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/UO_1000010> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/has_prefix> <http://purl.obolibrary.org/obo/UO_0000303>)))
+EquivalentClasses(<http://purl.obolibrary.org/obo/UO_1000000> ObjectOneOf(<http://purl.obolibrary.org/obo/UO_1000000>))
+SubClassOf(<http://purl.obolibrary.org/obo/UO_1000000> <http://purl.obolibrary.org/obo/UO_1000010>)
+
+# Class: <http://purl.obolibrary.org/obo/UO_1000001> (degree per picosecond)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/UO_1000001> "An angular velocity unit which is equal to the angular velocity of an object changing its angle by one degree in one picosecond."@en)
+AnnotationAssertion(oboInOwl:hasExactSynonym <http://purl.obolibrary.org/obo/UO_1000001> "deg ps-1")
+AnnotationAssertion(oboInOwl:hasExactSynonym <http://purl.obolibrary.org/obo/UO_1000001> "deg/ps")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/UO_1000001> "degree per picosecond"@en)
+EquivalentClasses(<http://purl.obolibrary.org/obo/UO_1000001> ObjectOneOf(<http://purl.obolibrary.org/obo/UO_1000001>))
+SubClassOf(<http://purl.obolibrary.org/obo/UO_1000001> <http://purl.obolibrary.org/obo/UO_0000049>)
+
+# Class: <http://purl.obolibrary.org/obo/UO_1000002> (nanometer per picosecond)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/UO_1000002> "nanometer per picosecond"@en)
+EquivalentClasses(<http://purl.obolibrary.org/obo/UO_1000002> ObjectOneOf(<http://purl.obolibrary.org/obo/UO_1000002>))
+SubClassOf(<http://purl.obolibrary.org/obo/UO_1000002> <http://purl.obolibrary.org/obo/UO_1000094>)
+
+# Class: <http://purl.obolibrary.org/obo/UO_1000003> (cubic nanometer)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/UO_1000003> "A volume unit which is equal to the volume of a cube with edges one nanometer in length."@en)
+AnnotationAssertion(oboInOwl:hasExactSynonym <http://purl.obolibrary.org/obo/UO_1000003> "nm3")
+AnnotationAssertion(oboInOwl:hasExactSynonym <http://purl.obolibrary.org/obo/UO_1000003> "nm^3")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/UO_1000003> "cubic nanometer"@en)
+EquivalentClasses(<http://purl.obolibrary.org/obo/UO_1000003> ObjectOneOf(<http://purl.obolibrary.org/obo/UO_1000003>))
+SubClassOf(<http://purl.obolibrary.org/obo/UO_1000003> <http://purl.obolibrary.org/obo/UO_0000095>)
+
+# Class: <http://purl.obolibrary.org/obo/UO_1000004> (inverse picosecond)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/UO_1000004> "1/ps"@en)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/UO_1000004> "A frequency unit which is equal to one cycle or occurrence per picosecond."@en)
+AnnotationAssertion(oboInOwl:hasExactSynonym <http://purl.obolibrary.org/obo/UO_1000004> "ps^-1")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/UO_1000004> "inverse picosecond"@en)
+EquivalentClasses(<http://purl.obolibrary.org/obo/UO_1000004> ObjectOneOf(<http://purl.obolibrary.org/obo/UO_1000004>))
+SubClassOf(<http://purl.obolibrary.org/obo/UO_1000004> <http://purl.obolibrary.org/obo/UO_0000105>)
+
 # Class: <http://purl.obolibrary.org/obo/UO_1000008> (meter based unit)
 
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/UO_1000008> "meter based unit")
@@ -5126,6 +5177,22 @@ SubClassOf(<http://purl.obolibrary.org/obo/UO_1010051> <http://purl.obolibrary.o
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/UO_1010060> "gray per minute based unit")
 SubClassOf(<http://purl.obolibrary.org/obo/UO_1010060> <http://purl.obolibrary.org/obo/UO_0000129>)
 
+
+############################
+#   Named Individuals
+############################
+
+# Individual: <http://purl.obolibrary.org/obo/UO_1000000> (femtosecond)
+
+ClassAssertion(<http://purl.obolibrary.org/obo/UO_1000000> <http://purl.obolibrary.org/obo/UO_1000000>)
+
+# Individual: <http://purl.obolibrary.org/obo/UO_1000001> (degree per picosecond)
+
+ClassAssertion(<http://purl.obolibrary.org/obo/UO_1000001> <http://purl.obolibrary.org/obo/UO_1000001>)
+
+# Individual: <http://purl.obolibrary.org/obo/UO_1000002> (nanometer per picosecond)
+
+ClassAssertion(<http://purl.obolibrary.org/obo/UO_1000094> <http://purl.obolibrary.org/obo/UO_1000002>)
 
 
 )
