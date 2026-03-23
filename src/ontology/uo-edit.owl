@@ -424,21 +424,34 @@ Declaration(Class(<http://purl.obolibrary.org/obo/UO_1000001>))
 Declaration(Class(<http://purl.obolibrary.org/obo/UO_1000002>))
 Declaration(Class(<http://purl.obolibrary.org/obo/UO_1000003>))
 Declaration(Class(<http://purl.obolibrary.org/obo/UO_1000004>))
+Declaration(Class(<http://purl.obolibrary.org/obo/UO_1000005>))
+Declaration(Class(<http://purl.obolibrary.org/obo/UO_1000006>))
+Declaration(Class(<http://purl.obolibrary.org/obo/UO_1000007>))
 Declaration(Class(<http://purl.obolibrary.org/obo/UO_1000008>))
 Declaration(Class(<http://purl.obolibrary.org/obo/UO_1000010>))
 Declaration(Class(<http://purl.obolibrary.org/obo/UO_1000011>))
 Declaration(Class(<http://purl.obolibrary.org/obo/UO_1000012>))
 Declaration(Class(<http://purl.obolibrary.org/obo/UO_1000013>))
 Declaration(Class(<http://purl.obolibrary.org/obo/UO_1000014>))
+Declaration(Class(<http://purl.obolibrary.org/obo/UO_1000015>))
+Declaration(Class(<http://purl.obolibrary.org/obo/UO_1000017>))
+Declaration(Class(<http://purl.obolibrary.org/obo/UO_1000018>))
 Declaration(Class(<http://purl.obolibrary.org/obo/UO_1000019>))
 Declaration(Class(<http://purl.obolibrary.org/obo/UO_1000021>))
+Declaration(Class(<http://purl.obolibrary.org/obo/UO_1000022>))
+Declaration(Class(<http://purl.obolibrary.org/obo/UO_1000023>))
+Declaration(Class(<http://purl.obolibrary.org/obo/UO_1000025>))
 Declaration(Class(<http://purl.obolibrary.org/obo/UO_1000027>))
+Declaration(Class(<http://purl.obolibrary.org/obo/UO_1000028>))
+Declaration(Class(<http://purl.obolibrary.org/obo/UO_1000029>))
+Declaration(Class(<http://purl.obolibrary.org/obo/UO_1000030>))
 Declaration(Class(<http://purl.obolibrary.org/obo/UO_1000031>))
 Declaration(Class(<http://purl.obolibrary.org/obo/UO_1000032>))
 Declaration(Class(<http://purl.obolibrary.org/obo/UO_1000033>))
 Declaration(Class(<http://purl.obolibrary.org/obo/UO_1000034>))
 Declaration(Class(<http://purl.obolibrary.org/obo/UO_1000035>))
 Declaration(Class(<http://purl.obolibrary.org/obo/UO_1000036>))
+Declaration(Class(<http://purl.obolibrary.org/obo/UO_1000040>))
 Declaration(Class(<http://purl.obolibrary.org/obo/UO_1000062>))
 Declaration(Class(<http://purl.obolibrary.org/obo/UO_1000068>))
 Declaration(Class(<http://purl.obolibrary.org/obo/UO_1000075>))
@@ -872,6 +885,15 @@ Declaration(NamedIndividual(<http://purl.obolibrary.org/obo/UO_1000001>))
 Declaration(NamedIndividual(<http://purl.obolibrary.org/obo/UO_1000002>))
 Declaration(NamedIndividual(<http://purl.obolibrary.org/obo/UO_1000003>))
 Declaration(NamedIndividual(<http://purl.obolibrary.org/obo/UO_1000004>))
+Declaration(NamedIndividual(<http://purl.obolibrary.org/obo/UO_1000006>))
+Declaration(NamedIndividual(<http://purl.obolibrary.org/obo/UO_1000015>))
+Declaration(NamedIndividual(<http://purl.obolibrary.org/obo/UO_1000017>))
+Declaration(NamedIndividual(<http://purl.obolibrary.org/obo/UO_1000018>))
+Declaration(NamedIndividual(<http://purl.obolibrary.org/obo/UO_1000023>))
+Declaration(NamedIndividual(<http://purl.obolibrary.org/obo/UO_1000025>))
+Declaration(NamedIndividual(<http://purl.obolibrary.org/obo/UO_1000029>))
+Declaration(NamedIndividual(<http://purl.obolibrary.org/obo/UO_1000030>))
+Declaration(NamedIndividual(<http://purl.obolibrary.org/obo/UO_1000040>))
 Declaration(AnnotationProperty(<http://purl.obolibrary.org/obo/IAO_0000115>))
 Declaration(AnnotationProperty(oboInOwl:hasDbXref))
 Declaration(AnnotationProperty(oboInOwl:hasExactSynonym))
@@ -4347,6 +4369,22 @@ AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/UO_1000004> "inve
 EquivalentClasses(<http://purl.obolibrary.org/obo/UO_1000004> ObjectOneOf(<http://purl.obolibrary.org/obo/UO_1000004>))
 SubClassOf(<http://purl.obolibrary.org/obo/UO_1000004> <http://purl.obolibrary.org/obo/UO_0000105>)
 
+# Class: <http://purl.obolibrary.org/obo/UO_1000005> (kinematic viscosity unit)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/UO_1000005> "kinematic viscosity unit"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/UO_1000005> <http://purl.obolibrary.org/obo/UO_0000000>)
+
+# Class: <http://purl.obolibrary.org/obo/UO_1000006> (square centimeter per second)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/UO_1000006> "square centimeter per second"@en)
+EquivalentClasses(<http://purl.obolibrary.org/obo/UO_1000006> ObjectOneOf(<http://purl.obolibrary.org/obo/UO_1000006>))
+SubClassOf(<http://purl.obolibrary.org/obo/UO_1000006> <http://purl.obolibrary.org/obo/UO_1000005>)
+
+# Class: <http://purl.obolibrary.org/obo/UO_1000007> (diffusion constant unit)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/UO_1000007> "diffusion constant unit"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/UO_1000007> <http://purl.obolibrary.org/obo/UO_0000000>)
+
 # Class: <http://purl.obolibrary.org/obo/UO_1000008> (meter based unit)
 
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/UO_1000008> "meter based unit")
@@ -4377,6 +4415,24 @@ SubClassOf(<http://purl.obolibrary.org/obo/UO_1000013> <http://purl.obolibrary.o
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/UO_1000014> "candela based unit")
 SubClassOf(<http://purl.obolibrary.org/obo/UO_1000014> <http://purl.obolibrary.org/obo/UO_0000007>)
 
+# Class: <http://purl.obolibrary.org/obo/UO_1000015> (square nanometer per picosecond)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/UO_1000015> "square nanometer per picosecond"@en)
+EquivalentClasses(<http://purl.obolibrary.org/obo/UO_1000015> ObjectOneOf(<http://purl.obolibrary.org/obo/UO_1000015>))
+SubClassOf(<http://purl.obolibrary.org/obo/UO_1000015> <http://purl.obolibrary.org/obo/UO_1000007>)
+
+# Class: <http://purl.obolibrary.org/obo/UO_1000017> (atmosphere)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/UO_1000017> "atmosphere"@en)
+EquivalentClasses(<http://purl.obolibrary.org/obo/UO_1000017> ObjectOneOf(<http://purl.obolibrary.org/obo/UO_1000017>))
+SubClassOf(<http://purl.obolibrary.org/obo/UO_1000017> <http://purl.obolibrary.org/obo/UO_0000109>)
+
+# Class: <http://purl.obolibrary.org/obo/UO_1000018> (kiloelectronvolt)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/UO_1000018> "kiloelectronvolt"@en)
+EquivalentClasses(<http://purl.obolibrary.org/obo/UO_1000018> ObjectIntersectionOf(ObjectOneOf(<http://purl.obolibrary.org/obo/UO_1000018>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/has_prefix> <http://purl.obolibrary.org/obo/UO_0000292>)))
+SubClassOf(<http://purl.obolibrary.org/obo/UO_1000018> <http://purl.obolibrary.org/obo/UO_1000266>)
+
 # Class: <http://purl.obolibrary.org/obo/UO_1000019> (angstrom based unit)
 
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/UO_1000019> "angstrom based unit")
@@ -4387,10 +4443,44 @@ SubClassOf(<http://purl.obolibrary.org/obo/UO_1000019> <http://purl.obolibrary.o
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/UO_1000021> "gram based unit")
 SubClassOf(<http://purl.obolibrary.org/obo/UO_1000021> <http://purl.obolibrary.org/obo/UO_0000002>)
 
+# Class: <http://purl.obolibrary.org/obo/UO_1000022> (molar force unit)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/UO_1000022> "molar force unit"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/UO_1000022> <http://purl.obolibrary.org/obo/UO_0000000>)
+
+# Class: <http://purl.obolibrary.org/obo/UO_1000023> (elementary charge)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/UO_1000023> "elementary charge"@en)
+EquivalentClasses(<http://purl.obolibrary.org/obo/UO_1000023> ObjectOneOf(<http://purl.obolibrary.org/obo/UO_1000023>))
+SubClassOf(<http://purl.obolibrary.org/obo/UO_1000023> <http://purl.obolibrary.org/obo/UO_0000219>)
+
+# Class: <http://purl.obolibrary.org/obo/UO_1000025> (volt per nanometer)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/UO_1000025> "volt per nanometer"@en)
+EquivalentClasses(<http://purl.obolibrary.org/obo/UO_1000025> ObjectOneOf(<http://purl.obolibrary.org/obo/UO_1000025>))
+SubClassOf(<http://purl.obolibrary.org/obo/UO_1000025> <http://purl.obolibrary.org/obo/UO_1000268>)
+
 # Class: <http://purl.obolibrary.org/obo/UO_1000027> (degree Celsius based unit)
 
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/UO_1000027> "degree Celsius based unit")
 SubClassOf(<http://purl.obolibrary.org/obo/UO_1000027> <http://purl.obolibrary.org/obo/UO_0000005>)
+
+# Class: <http://purl.obolibrary.org/obo/UO_1000028> (molar energy unit)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/UO_1000028> "molar energy unit"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/UO_1000028> <http://purl.obolibrary.org/obo/UO_0000000>)
+
+# Class: <http://purl.obolibrary.org/obo/UO_1000029> (kilocalorie per mole)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/UO_1000029> "kilocalorie per mole"@en)
+EquivalentClasses(<http://purl.obolibrary.org/obo/UO_1000029> ObjectOneOf(<http://purl.obolibrary.org/obo/UO_1000029>))
+SubClassOf(<http://purl.obolibrary.org/obo/UO_1000029> <http://purl.obolibrary.org/obo/UO_1000028>)
+
+# Class: <http://purl.obolibrary.org/obo/UO_1000030> (kilojoule per mole)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/UO_1000030> "kilojoule per mole"@en)
+EquivalentClasses(<http://purl.obolibrary.org/obo/UO_1000030> ObjectOneOf(<http://purl.obolibrary.org/obo/UO_1000030>))
+SubClassOf(<http://purl.obolibrary.org/obo/UO_1000030> <http://purl.obolibrary.org/obo/UO_1000028>)
 
 # Class: <http://purl.obolibrary.org/obo/UO_1000031> (minute based unit)
 
@@ -4421,6 +4511,12 @@ SubClassOf(<http://purl.obolibrary.org/obo/UO_1000035> <http://purl.obolibrary.o
 
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/UO_1000036> "year based unit")
 SubClassOf(<http://purl.obolibrary.org/obo/UO_1000036> <http://purl.obolibrary.org/obo/UO_0000003>)
+
+# Class: <http://purl.obolibrary.org/obo/UO_1000040> (kilojoule per mole per nanometer)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/UO_1000040> "kilojoule per mole per nanometer"@en)
+EquivalentClasses(<http://purl.obolibrary.org/obo/UO_1000040> ObjectOneOf(<http://purl.obolibrary.org/obo/UO_1000040>))
+SubClassOf(<http://purl.obolibrary.org/obo/UO_1000040> <http://purl.obolibrary.org/obo/UO_1000022>)
 
 # Class: <http://purl.obolibrary.org/obo/UO_1000062> (molar based unit)
 
