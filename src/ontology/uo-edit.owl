@@ -4418,6 +4418,11 @@ SubClassOf(<http://purl.obolibrary.org/obo/UO_1000005> <http://purl.obolibrary.o
 
 # Class: <http://purl.obolibrary.org/obo/UO_1000006> (square centimeter per second)
 
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/UO_1000006> "A kinematic viscosity unit which is equal to a kinematic viscosity or diffusion rate of one square centimeter of area per second of time, equivalent to 10⁻⁴ square meters per second."@en)
+AnnotationAssertion(oboInOwl:hasExactSynonym <http://purl.obolibrary.org/obo/UO_1000006> "St")
+AnnotationAssertion(oboInOwl:hasExactSynonym <http://purl.obolibrary.org/obo/UO_1000006> "cm2 s-1")
+AnnotationAssertion(oboInOwl:hasExactSynonym <http://purl.obolibrary.org/obo/UO_1000006> "cm^2/s")
+AnnotationAssertion(oboInOwl:hasExactSynonym <http://purl.obolibrary.org/obo/UO_1000006> "stokes")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/UO_1000006> "square centimeter per second"@en)
 EquivalentClasses(<http://purl.obolibrary.org/obo/UO_1000006> ObjectOneOf(<http://purl.obolibrary.org/obo/UO_1000006>))
 SubClassOf(<http://purl.obolibrary.org/obo/UO_1000006> <http://purl.obolibrary.org/obo/UO_1000005>)
@@ -4516,6 +4521,7 @@ SubClassOf(<http://purl.obolibrary.org/obo/UO_1000021> <http://purl.obolibrary.o
 
 # Class: <http://purl.obolibrary.org/obo/UO_1000022> (molar force unit)
 
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/UO_1000022> "A unit which is a standard measure of the physical force exerted per mole of a given substance."@en)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/UO_1000022> "molar force unit"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/UO_1000022> <http://purl.obolibrary.org/obo/UO_0000000>)
 
@@ -4615,7 +4621,7 @@ SubClassOf(<http://purl.obolibrary.org/obo/UO_1000036> <http://purl.obolibrary.o
 
 # Class: <http://purl.obolibrary.org/obo/UO_1000038> (dynamic viscosity unit)
 
-AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/UO_1000038> "A viscosity unit which is a standard measure of a fluid's absolute internal resistance to shear flow, defined as the ratio of shear stress to the shear rate."@en)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/UO_1000038> "A viscosity unit which is a standard measure of a fluid's absolute internal resistance to shear flow, defined as the ratio of shear stress to the shear rate."@en)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/UO_1000038> "dynamic viscosity unit"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/UO_1000038> <http://purl.obolibrary.org/obo/UO_0000256>)
 
