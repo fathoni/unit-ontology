@@ -4412,7 +4412,7 @@ SubClassOf(<http://purl.obolibrary.org/obo/UO_1000004> <http://purl.obolibrary.o
 
 # Class: <http://purl.obolibrary.org/obo/UO_1000005> (kinematic viscosity unit)
 
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/UO_1000005> "A unit which is a standard measure of the ratio of a fluid's dynamic viscosity to its macroscopic mass density."@en)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/UO_1000005> "A viscosity unit which is a standard measure of fluid's resistance to flow under gravity, defined as the ratio of its dynamic viscosity to its macroscopic mass density."@en)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/UO_1000005> "kinematic viscosity unit"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/UO_1000005> <http://purl.obolibrary.org/obo/UO_0000256>)
 
@@ -4428,10 +4428,10 @@ AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/UO_1000006> "squa
 EquivalentClasses(<http://purl.obolibrary.org/obo/UO_1000006> ObjectOneOf(<http://purl.obolibrary.org/obo/UO_1000006>))
 SubClassOf(<http://purl.obolibrary.org/obo/UO_1000006> <http://purl.obolibrary.org/obo/UO_1000005>)
 
-# Class: <http://purl.obolibrary.org/obo/UO_1000007> (diffusion constant unit)
+# Class: <http://purl.obolibrary.org/obo/UO_1000007> (diffusion coefficient unit)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/UO_1000007> "A unit which is a proportionality factor that quantifies how rapidly particles, heat, or momentum diffuses, relating the diffusive flux to the concentration gradient over an area per unit of time."@en)
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/UO_1000007> "diffusion constant unit"@en)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/UO_1000007> "diffusion coefficient unit"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/UO_1000007> <http://purl.obolibrary.org/obo/UO_0000000>)
 
 # Class: <http://purl.obolibrary.org/obo/UO_1000008> (meter based unit)
@@ -4578,7 +4578,6 @@ SubClassOf(<http://purl.obolibrary.org/obo/UO_1000028> <http://purl.obolibrary.o
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/UO_1000029> "A speed/velocity unit which is equal to the speed of an object traveling one angstrom distance in one nanosecond, equivalent to 0.1 meters per second."@en)
 AnnotationAssertion(oboInOwl:hasExactSynonym <http://purl.obolibrary.org/obo/UO_1000029> "Å/ns")
 AnnotationAssertion(oboInOwl:hasExactSynonym <http://purl.obolibrary.org/obo/UO_1000029> "Å ns^[-1]")
-AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/UO_1000029> "Standard kinematic velocity unit used in MD analysis."@en)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/UO_1000029> "angstrom per nanosecond"@en)
 EquivalentClasses(<http://purl.obolibrary.org/obo/UO_1000029> ObjectOneOf(<http://purl.obolibrary.org/obo/UO_1000029>))
 SubClassOf(<http://purl.obolibrary.org/obo/UO_1000029> <http://purl.obolibrary.org/obo/UO_0000060>)
@@ -4654,7 +4653,7 @@ SubClassOf(<http://purl.obolibrary.org/obo/UO_1000041> <http://purl.obolibrary.o
 
 # Class: <http://purl.obolibrary.org/obo/UO_1000043> (anharmonic force constant unit)
 
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/UO_1000043> "A unit which is a standard measure of the higher-order derivative of the potential energy surface, representing deviations from perfect harmonic (quadratic) motions per mole of a given substance."@en)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/UO_1000043> "A unit which is a standard measure of the separation of positive and negative electrical charges within a system."@en)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/UO_1000043> "anharmonic force constant unit"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/UO_1000043> <http://purl.obolibrary.org/obo/UO_0000000>)
 
@@ -4706,10 +4705,10 @@ AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/UO_1000050> "inve
 EquivalentClasses(<http://purl.obolibrary.org/obo/UO_1000050> ObjectOneOf(<http://purl.obolibrary.org/obo/UO_1000050>))
 SubClassOf(<http://purl.obolibrary.org/obo/UO_1000050> <http://purl.obolibrary.org/obo/UO_1000049>)
 
-# Class: <http://purl.obolibrary.org/obo/UO_1000051> (rotational diffusion constant unit)
+# Class: <http://purl.obolibrary.org/obo/UO_1000051> (rotational diffusion coefficient unit)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/UO_1000051> "A unit which is a standard measure of the rate at which molecules or particles reorient in a fluid, determining their rotational Brownian motion based on size, shape, and medium viscosity."@en)
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/UO_1000051> "rotational diffusion constant unit"@en)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/UO_1000051> "rotational diffusion coefficient unit"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/UO_1000051> <http://purl.obolibrary.org/obo/UO_0000000>)
 
 # Class: <http://purl.obolibrary.org/obo/UO_1000052> (radian squared per picosecond)
