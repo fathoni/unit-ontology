@@ -5545,21 +5545,4 @@ AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/UO_1010060> "gray
 SubClassOf(<http://purl.obolibrary.org/obo/UO_1010060> <http://purl.obolibrary.org/obo/UO_0000129>)
 
 
-############################
-#   Named Individuals
-############################
-
-# Individual: <http://purl.obolibrary.org/obo/UO_1000000> (femtosecond)
-
-ClassAssertion(<http://purl.obolibrary.org/obo/UO_1000000> <http://purl.obolibrary.org/obo/UO_1000000>)
-
-# Individual: <http://purl.obolibrary.org/obo/UO_1000001> (degree per picosecond)
-
-ClassAssertion(<http://purl.obolibrary.org/obo/UO_1000001> <http://purl.obolibrary.org/obo/UO_1000001>)
-
-# Individual: <http://purl.obolibrary.org/obo/UO_1000002> (nanometer per picosecond)
-
-ClassAssertion(<http://purl.obolibrary.org/obo/UO_1000002> <http://purl.obolibrary.org/obo/UO_1000002>)
-
-
 )
