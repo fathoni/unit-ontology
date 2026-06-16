@@ -456,12 +456,14 @@ Declaration(Class(<http://purl.obolibrary.org/obo/UO_1000033>))
 Declaration(Class(<http://purl.obolibrary.org/obo/UO_1000034>))
 Declaration(Class(<http://purl.obolibrary.org/obo/UO_1000035>))
 Declaration(Class(<http://purl.obolibrary.org/obo/UO_1000036>))
+Declaration(Class(<http://purl.obolibrary.org/obo/UO_1000037>))
 Declaration(Class(<http://purl.obolibrary.org/obo/UO_1000038>))
 Declaration(Class(<http://purl.obolibrary.org/obo/UO_1000039>))
 Declaration(Class(<http://purl.obolibrary.org/obo/UO_1000040>))
 Declaration(Class(<http://purl.obolibrary.org/obo/UO_1000041>))
 Declaration(Class(<http://purl.obolibrary.org/obo/UO_1000043>))
 Declaration(Class(<http://purl.obolibrary.org/obo/UO_1000044>))
+Declaration(Class(<http://purl.obolibrary.org/obo/UO_1000045>))
 Declaration(Class(<http://purl.obolibrary.org/obo/UO_1000046>))
 Declaration(Class(<http://purl.obolibrary.org/obo/UO_1000047>))
 Declaration(Class(<http://purl.obolibrary.org/obo/UO_1000048>))
@@ -4377,8 +4379,8 @@ SubClassOf(<http://purl.obolibrary.org/obo/UO_1000000> <http://purl.obolibrary.o
 # Class: <http://purl.obolibrary.org/obo/UO_1000001> (degree per picosecond)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/UO_1000001> "An angular velocity unit which is equal to the angular velocity of an object changing its angle by one degree in one picosecond."@en)
-AnnotationAssertion(oboInOwl:hasExactSynonym <http://purl.obolibrary.org/obo/UO_1000001> "deg/ps")
 AnnotationAssertion(oboInOwl:hasExactSynonym <http://purl.obolibrary.org/obo/UO_1000001> "deg ps^[-1]")
+AnnotationAssertion(oboInOwl:hasExactSynonym <http://purl.obolibrary.org/obo/UO_1000001> "deg/ps")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/UO_1000001> "degree per picosecond"@en)
 EquivalentClasses(<http://purl.obolibrary.org/obo/UO_1000001> ObjectOneOf(<http://purl.obolibrary.org/obo/UO_1000001>))
 SubClassOf(<http://purl.obolibrary.org/obo/UO_1000001> <http://purl.obolibrary.org/obo/UO_0000049>)
@@ -4386,8 +4388,8 @@ SubClassOf(<http://purl.obolibrary.org/obo/UO_1000001> <http://purl.obolibrary.o
 # Class: <http://purl.obolibrary.org/obo/UO_1000002> (nanometer per picosecond)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/UO_1000002> "A speed/velocity unit which is equal to the speed of an object traveling one nanometer distance in one picosecond, equivalent to 1000 meters per second."@en)
-AnnotationAssertion(oboInOwl:hasExactSynonym <http://purl.obolibrary.org/obo/UO_1000002> "nm/ps")
 AnnotationAssertion(oboInOwl:hasExactSynonym <http://purl.obolibrary.org/obo/UO_1000002> "nm ps^[-1]")
+AnnotationAssertion(oboInOwl:hasExactSynonym <http://purl.obolibrary.org/obo/UO_1000002> "nm/ps")
 AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/UO_1000002> "A standard velocity unit widely used in computational chemistry and molecular dynamics simulations (e.g., as the native velocity unit in GROMACS and OpenMM)."@en)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/UO_1000002> "nanometer per picosecond"@en)
 EquivalentClasses(<http://purl.obolibrary.org/obo/UO_1000002> ObjectOneOf(<http://purl.obolibrary.org/obo/UO_1000002>))
@@ -4412,7 +4414,7 @@ SubClassOf(<http://purl.obolibrary.org/obo/UO_1000004> <http://purl.obolibrary.o
 
 # Class: <http://purl.obolibrary.org/obo/UO_1000005> (kinematic viscosity unit)
 
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/UO_1000005> "A viscosity unit which is a standard measure of fluid's resistance to flow under gravity, defined as the ratio of its dynamic viscosity to its macroscopic mass density."@en)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/UO_1000005> "A viscosity unit which is a standard measure of fluid's resistance to flow, defined as the ratio of its dynamic viscosity to its macroscopic mass density."@en)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/UO_1000005> "kinematic viscosity unit"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/UO_1000005> <http://purl.obolibrary.org/obo/UO_0000256>)
 
@@ -4420,9 +4422,9 @@ SubClassOf(<http://purl.obolibrary.org/obo/UO_1000005> <http://purl.obolibrary.o
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/UO_1000006> "A kinematic viscosity unit which is equal to a kinematic viscosity or diffusion rate of one square centimeter of area per second of time, equivalent to 10⁻⁴ square meters per second."@en)
 AnnotationAssertion(oboInOwl:hasExactSynonym <http://purl.obolibrary.org/obo/UO_1000006> "St")
-AnnotationAssertion(oboInOwl:hasExactSynonym <http://purl.obolibrary.org/obo/UO_1000006> "stokes")
 AnnotationAssertion(oboInOwl:hasExactSynonym <http://purl.obolibrary.org/obo/UO_1000006> "cm^[2] s^[-1]")
 AnnotationAssertion(oboInOwl:hasExactSynonym <http://purl.obolibrary.org/obo/UO_1000006> "cm^[2]/s")
+AnnotationAssertion(oboInOwl:hasExactSynonym <http://purl.obolibrary.org/obo/UO_1000006> "stokes")
 AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/UO_1000006> "CGS unit for kinematic viscosity, physically equivalent to the stokes."@en)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/UO_1000006> "square centimeter per second"@en)
 EquivalentClasses(<http://purl.obolibrary.org/obo/UO_1000006> ObjectOneOf(<http://purl.obolibrary.org/obo/UO_1000006>))
@@ -4432,7 +4434,7 @@ SubClassOf(<http://purl.obolibrary.org/obo/UO_1000006> <http://purl.obolibrary.o
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/UO_1000007> "A unit which is a proportionality factor that quantifies how rapidly particles, heat, or momentum diffuses, relating the diffusive flux to the concentration gradient over an area per unit of time."@en)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/UO_1000007> "diffusion coefficient unit"@en)
-SubClassOf(<http://purl.obolibrary.org/obo/UO_1000007> <http://purl.obolibrary.org/obo/UO_0000000>)
+SubClassOf(<http://purl.obolibrary.org/obo/UO_1000007> <http://purl.obolibrary.org/obo/UO_1000005>)
 
 # Class: <http://purl.obolibrary.org/obo/UO_1000008> (meter based unit)
 
@@ -4443,7 +4445,7 @@ SubClassOf(<http://purl.obolibrary.org/obo/UO_1000008> <http://purl.obolibrary.o
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/UO_1000009> "A unit which is a standard measure of the torque (or angular force) exerted per mole of a given substance."@en)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/UO_1000009> "molar torque unit"@en)
-SubClassOf(<http://purl.obolibrary.org/obo/UO_1000009> <http://purl.obolibrary.org/obo/UO_0000000>)
+SubClassOf(<http://purl.obolibrary.org/obo/UO_1000009> <http://purl.obolibrary.org/obo/UO_1000037>)
 
 # Class: <http://purl.obolibrary.org/obo/UO_1000010> (second based unit)
 
@@ -4514,7 +4516,7 @@ SubClassOf(<http://purl.obolibrary.org/obo/UO_1000019> <http://purl.obolibrary.o
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/UO_1000020> "A unit which is a standard measure of the stiffness of a harmonic potential (energy penalty per squared distance) scaled per mole of a given substance."@en)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/UO_1000020> "molar force constant unit"@en)
-SubClassOf(<http://purl.obolibrary.org/obo/UO_1000020> <http://purl.obolibrary.org/obo/UO_0000000>)
+SubClassOf(<http://purl.obolibrary.org/obo/UO_1000020> <http://purl.obolibrary.org/obo/UO_1000045>)
 
 # Class: <http://purl.obolibrary.org/obo/UO_1000021> (gram based unit)
 
@@ -4525,7 +4527,7 @@ SubClassOf(<http://purl.obolibrary.org/obo/UO_1000021> <http://purl.obolibrary.o
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/UO_1000022> "A unit which is a standard measure of the physical force exerted per mole of a given substance."@en)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/UO_1000022> "molar force unit"@en)
-SubClassOf(<http://purl.obolibrary.org/obo/UO_1000022> <http://purl.obolibrary.org/obo/UO_0000000>)
+SubClassOf(<http://purl.obolibrary.org/obo/UO_1000022> <http://purl.obolibrary.org/obo/UO_0000107>)
 
 # Class: <http://purl.obolibrary.org/obo/UO_1000023> (elementary charge)
 
@@ -4571,13 +4573,13 @@ SubClassOf(<http://purl.obolibrary.org/obo/UO_1000027> <http://purl.obolibrary.o
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/UO_1000028> "A unit which is a standard measure of the amount of thermodynamic energy absorbed or released, often as heat, per mole of a given substance."@en)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/UO_1000028> "molar energy unit"@en)
-SubClassOf(<http://purl.obolibrary.org/obo/UO_1000028> <http://purl.obolibrary.org/obo/UO_0000000>)
+SubClassOf(<http://purl.obolibrary.org/obo/UO_1000028> <http://purl.obolibrary.org/obo/UO_0000111>)
 
 # Class: <http://purl.obolibrary.org/obo/UO_1000029> (angstrom per nanosecond)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/UO_1000029> "A speed/velocity unit which is equal to the speed of an object traveling one angstrom distance in one nanosecond, equivalent to 0.1 meters per second."@en)
-AnnotationAssertion(oboInOwl:hasExactSynonym <http://purl.obolibrary.org/obo/UO_1000029> "Å/ns")
 AnnotationAssertion(oboInOwl:hasExactSynonym <http://purl.obolibrary.org/obo/UO_1000029> "Å ns^[-1]")
+AnnotationAssertion(oboInOwl:hasExactSynonym <http://purl.obolibrary.org/obo/UO_1000029> "Å/ns")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/UO_1000029> "angstrom per nanosecond"@en)
 EquivalentClasses(<http://purl.obolibrary.org/obo/UO_1000029> ObjectOneOf(<http://purl.obolibrary.org/obo/UO_1000029>))
 SubClassOf(<http://purl.obolibrary.org/obo/UO_1000029> <http://purl.obolibrary.org/obo/UO_0000060>)
@@ -4621,6 +4623,12 @@ SubClassOf(<http://purl.obolibrary.org/obo/UO_1000035> <http://purl.obolibrary.o
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/UO_1000036> "year based unit")
 SubClassOf(<http://purl.obolibrary.org/obo/UO_1000036> <http://purl.obolibrary.org/obo/UO_0000003>)
 
+# Class: <http://purl.obolibrary.org/obo/UO_1000037> (torque unit)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/UO_1000037> "A unit which is a standard measure of the tendency of a force to rotate an object about an axis, fulcrum, or pivot."@en)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/UO_1000037> "torque unit"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/UO_1000037> <http://purl.obolibrary.org/obo/UO_0000000>)
+
 # Class: <http://purl.obolibrary.org/obo/UO_1000038> (dynamic viscosity unit)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/UO_1000038> "A viscosity unit which is a standard measure of a fluid's absolute internal resistance to shear flow, defined as the ratio of shear stress to the shear rate."@en)
@@ -4631,7 +4639,7 @@ SubClassOf(<http://purl.obolibrary.org/obo/UO_1000038> <http://purl.obolibrary.o
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/UO_1000039> "A unit which is a standard measure of an angular harmonic force constant (energy penalty per squared angle) scaled per mole of a given substance."@en)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/UO_1000039> "molar angular force constant unit"@en)
-SubClassOf(<http://purl.obolibrary.org/obo/UO_1000039> <http://purl.obolibrary.org/obo/UO_0000000>)
+SubClassOf(<http://purl.obolibrary.org/obo/UO_1000039> <http://purl.obolibrary.org/obo/UO_1000045>)
 
 # Class: <http://purl.obolibrary.org/obo/UO_1000040> (kilojoule per mole per nanometer)
 
@@ -4644,8 +4652,8 @@ SubClassOf(<http://purl.obolibrary.org/obo/UO_1000040> <http://purl.obolibrary.o
 # Class: <http://purl.obolibrary.org/obo/UO_1000041> (kilojoule per mole per radian squared)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/UO_1000041> "A molar angular force constant unit which is equal to one kilojoule per mole per squared radian."@en)
-AnnotationAssertion(oboInOwl:hasExactSynonym <http://purl.obolibrary.org/obo/UO_1000041> "kJ/mol/rad^2")
 AnnotationAssertion(oboInOwl:hasExactSynonym <http://purl.obolibrary.org/obo/UO_1000041> "kJ mol^[-1] rad^[-2]")
+AnnotationAssertion(oboInOwl:hasExactSynonym <http://purl.obolibrary.org/obo/UO_1000041> "kJ/mol/rad^2")
 AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/UO_1000041> "Distinguishes second derivative angular force parameters from standard energy, despite SI dimensional equivalence."@en)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/UO_1000041> "kilojoule per mole per radian squared"@en)
 EquivalentClasses(<http://purl.obolibrary.org/obo/UO_1000041> ObjectOneOf(<http://purl.obolibrary.org/obo/UO_1000041>))
@@ -4653,7 +4661,7 @@ SubClassOf(<http://purl.obolibrary.org/obo/UO_1000041> <http://purl.obolibrary.o
 
 # Class: <http://purl.obolibrary.org/obo/UO_1000043> (anharmonic force constant unit)
 
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/UO_1000043> "A unit which is a standard measure of the separation of positive and negative electrical charges within a system."@en)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/UO_1000043> "A unit which is a standard measure of the higher-order derivative of the potential energy surface, representing deviations from perfect harmonic (quadratic) motions per mole of a given substance."@en)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/UO_1000043> "anharmonic force constant unit"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/UO_1000043> <http://purl.obolibrary.org/obo/UO_0000000>)
 
@@ -4664,6 +4672,12 @@ AnnotationAssertion(oboInOwl:hasExactSynonym <http://purl.obolibrary.org/obo/UO_
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/UO_1000044> "kilojoule per mole per nanometer to the fourth"@en)
 EquivalentClasses(<http://purl.obolibrary.org/obo/UO_1000044> ObjectOneOf(<http://purl.obolibrary.org/obo/UO_1000044>))
 SubClassOf(<http://purl.obolibrary.org/obo/UO_1000044> <http://purl.obolibrary.org/obo/UO_1000043>)
+
+# Class: <http://purl.obolibrary.org/obo/UO_1000045> (force constant unit)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/UO_1000045> "A unit which is a standard measure of the restoring force exerted by a system per unit of displacement, typically representing the stiffness of a spring or harmonic potential."@en)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/UO_1000045> "force constant unit"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/UO_1000045> <http://purl.obolibrary.org/obo/UO_0000000>)
 
 # Class: <http://purl.obolibrary.org/obo/UO_1000046> (spatial frequency unit)
 
@@ -4694,7 +4708,7 @@ SubClassOf(<http://purl.obolibrary.org/obo/UO_1000048> <http://purl.obolibrary.o
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/UO_1000049> "A unit which is a standard measure of the number of entities, objects or particles distributed per unit of two-dimensional surface area. It measures how closely packed items are on a surface."@en)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/UO_1000049> "surface number density unit"@en)
-SubClassOf(<http://purl.obolibrary.org/obo/UO_1000049> <http://purl.obolibrary.org/obo/UO_0000000>)
+SubClassOf(<http://purl.obolibrary.org/obo/UO_1000049> <http://purl.obolibrary.org/obo/UO_0000182>)
 
 # Class: <http://purl.obolibrary.org/obo/UO_1000050> (inverse square nanometer)
 
@@ -4709,7 +4723,7 @@ SubClassOf(<http://purl.obolibrary.org/obo/UO_1000050> <http://purl.obolibrary.o
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/UO_1000051> "A unit which is a standard measure of the rate at which molecules or particles reorient in a fluid, determining their rotational Brownian motion based on size, shape, and medium viscosity."@en)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/UO_1000051> "rotational diffusion coefficient unit"@en)
-SubClassOf(<http://purl.obolibrary.org/obo/UO_1000051> <http://purl.obolibrary.org/obo/UO_0000000>)
+SubClassOf(<http://purl.obolibrary.org/obo/UO_1000051> <http://purl.obolibrary.org/obo/UO_0000280>)
 
 # Class: <http://purl.obolibrary.org/obo/UO_1000052> (radian squared per picosecond)
 
@@ -4724,7 +4738,7 @@ SubClassOf(<http://purl.obolibrary.org/obo/UO_1000052> <http://purl.obolibrary.o
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/UO_1000053> "A unit which is a standard measure of the ratio of the frictional force resisting motion between two surfaces to the normal force pressing them together per unit of its velocity."@en)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/UO_1000053> "friction coefficient unit"@en)
-SubClassOf(<http://purl.obolibrary.org/obo/UO_1000053> <http://purl.obolibrary.org/obo/UO_0000000>)
+SubClassOf(<http://purl.obolibrary.org/obo/UO_1000053> <http://purl.obolibrary.org/obo/UO_0000280>)
 
 # Class: <http://purl.obolibrary.org/obo/UO_1000054> (atomic mass unit per picosecond)
 
@@ -4773,8 +4787,8 @@ SubClassOf(<http://purl.obolibrary.org/obo/UO_1000062> <http://purl.obolibrary.o
 # Class: <http://purl.obolibrary.org/obo/UO_1000067> (kilocalorie per mole)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/UO_1000067> "A molar energy unit which is equal to one kilocalorie of energy per one mole of substance, equivalent to 4184 joules per mole."@en)
-AnnotationAssertion(oboInOwl:hasExactSynonym <http://purl.obolibrary.org/obo/UO_1000067> "kcal/mol")
 AnnotationAssertion(oboInOwl:hasExactSynonym <http://purl.obolibrary.org/obo/UO_1000067> "kcal mol^[-1]")
+AnnotationAssertion(oboInOwl:hasExactSynonym <http://purl.obolibrary.org/obo/UO_1000067> "kcal/mol")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/UO_1000067> "kilocalorie per mole"@en)
 EquivalentClasses(<http://purl.obolibrary.org/obo/UO_1000067> ObjectOneOf(<http://purl.obolibrary.org/obo/UO_1000067>))
 SubClassOf(<http://purl.obolibrary.org/obo/UO_1000067> <http://purl.obolibrary.org/obo/UO_1000028>)
@@ -5545,7 +5559,7 @@ ClassAssertion(<http://purl.obolibrary.org/obo/UO_1000001> <http://purl.obolibra
 
 # Individual: <http://purl.obolibrary.org/obo/UO_1000002> (nanometer per picosecond)
 
-ClassAssertion(<http://purl.obolibrary.org/obo/UO_1000094> <http://purl.obolibrary.org/obo/UO_1000002>)
+ClassAssertion(<http://purl.obolibrary.org/obo/UO_1000002> <http://purl.obolibrary.org/obo/UO_1000002>)
 
 
 )
