@@ -4436,7 +4436,7 @@ SubClassOf(<http://purl.obolibrary.org/obo/UO_1000006> <http://purl.obolibrary.o
 
 AnnotationAssertion(Annotation(oboInOwl:hasDbXref "https://orcid.org/0000-0001-8613-1447") Annotation(oboInOwl:hasDbXref "https://orcid.org/0000-0002-2748-7993") Annotation(oboInOwl:hasDbXref "https://orcid.org/0009-0007-1391-4986") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/UO_1000007> "A unit which is a proportionality factor that quantifies how rapidly particles, heat, or momentum diffuses, relating the diffusive flux to the concentration gradient over an area per unit of time."@en)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/UO_1000007> "diffusion coefficient unit"@en)
-SubClassOf(<http://purl.obolibrary.org/obo/UO_1000007> <http://purl.obolibrary.org/obo/UO_1000005>)
+SubClassOf(<http://purl.obolibrary.org/obo/UO_1000007> <http://purl.obolibrary.org/obo/UO_0000280>)
 
 # Class: <http://purl.obolibrary.org/obo/UO_1000008> (meter based unit)
 
@@ -4699,14 +4699,15 @@ AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/UO_1000047> "coun
 EquivalentClasses(<http://purl.obolibrary.org/obo/UO_1000047> ObjectOneOf(<http://purl.obolibrary.org/obo/UO_1000047>))
 SubClassOf(<http://purl.obolibrary.org/obo/UO_1000047> <http://purl.obolibrary.org/obo/UO_1000046>)
 
-# Class: <http://purl.obolibrary.org/obo/UO_1000048> (cycle per centimeter)
+# Class: <http://purl.obolibrary.org/obo/UO_1000048> (count per centimeter)
 
 AnnotationAssertion(Annotation(oboInOwl:hasDbXref "https://orcid.org/0000-0001-8613-1447") Annotation(oboInOwl:hasDbXref "https://orcid.org/0000-0002-2748-7993") Annotation(oboInOwl:hasDbXref "https://orcid.org/0009-0007-1391-4986") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/UO_1000048> "A spatial frequency unit which is equal to one cycle or occurrence per centimeter of distance."@en)
 AnnotationAssertion(oboInOwl:hasExactSynonym <http://purl.obolibrary.org/obo/UO_1000048> "1/cm")
 AnnotationAssertion(oboInOwl:hasExactSynonym <http://purl.obolibrary.org/obo/UO_1000048> "cm^[-1]")
 AnnotationAssertion(oboInOwl:hasExactSynonym <http://purl.obolibrary.org/obo/UO_1000048> "inverse centimeter")
 AnnotationAssertion(oboInOwl:hasExactSynonym <http://purl.obolibrary.org/obo/UO_1000048> "wavenumber")
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/UO_1000048> "cycle per centimeter"@en)
+AnnotationAssertion(oboInOwl:hasRelatedSynonym <http://purl.obolibrary.org/obo/UO_1000048> "cycle per centimeter")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/UO_1000048> "count per centimeter"@en)
 EquivalentClasses(<http://purl.obolibrary.org/obo/UO_1000048> ObjectOneOf(<http://purl.obolibrary.org/obo/UO_1000048>))
 SubClassOf(<http://purl.obolibrary.org/obo/UO_1000048> <http://purl.obolibrary.org/obo/UO_1000046>)
 
@@ -4730,7 +4731,7 @@ SubClassOf(<http://purl.obolibrary.org/obo/UO_1000050> <http://purl.obolibrary.o
 
 AnnotationAssertion(Annotation(oboInOwl:hasDbXref "https://orcid.org/0000-0001-8613-1447") Annotation(oboInOwl:hasDbXref "https://orcid.org/0000-0002-2748-7993") Annotation(oboInOwl:hasDbXref "https://orcid.org/0009-0007-1391-4986") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/UO_1000051> "A unit which is a standard measure of the rate at which molecules or particles reorient in a fluid, determining their rotational Brownian motion based on size, shape, and medium viscosity."@en)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/UO_1000051> "rotational diffusion coefficient unit"@en)
-SubClassOf(<http://purl.obolibrary.org/obo/UO_1000051> <http://purl.obolibrary.org/obo/UO_0000280>)
+SubClassOf(<http://purl.obolibrary.org/obo/UO_1000051> <http://purl.obolibrary.org/obo/UO_1000007>)
 
 # Class: <http://purl.obolibrary.org/obo/UO_1000052> (radian squared per picosecond)
 
@@ -4758,7 +4759,7 @@ SubClassOf(<http://purl.obolibrary.org/obo/UO_1000054> <http://purl.obolibrary.o
 
 # Class: <http://purl.obolibrary.org/obo/UO_1000055> (electric dipole moment unit)
 
-AnnotationAssertion(Annotation(oboInOwl:hasDbXref "https://orcid.org/0000-0001-8613-1447") Annotation(oboInOwl:hasDbXref "https://orcid.org/0000-0002-2748-7993") Annotation(oboInOwl:hasDbXref "https://orcid.org/0009-0007-1391-4986") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/UO_1000055> "A unit which is a standard measure of the separation of positive and negative electrical charges within a system."@en)
+AnnotationAssertion(Annotation(oboInOwl:hasDbXref "https://orcid.org/0000-0001-8613-1447") Annotation(oboInOwl:hasDbXref "https://orcid.org/0000-0002-2748-7993") Annotation(oboInOwl:hasDbXref "https://orcid.org/0009-0007-1391-4986") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/UO_1000055> "A unit which is a standard measure of the strength of an electric dipole, defined as the product of the magnitude of the charges and the distance separating them."@en)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/UO_1000055> "electric dipole moment unit"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/UO_1000055> <http://purl.obolibrary.org/obo/UO_0000000>)
 
