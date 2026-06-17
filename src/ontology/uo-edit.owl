@@ -4625,7 +4625,7 @@ SubClassOf(<http://purl.obolibrary.org/obo/UO_1000036> <http://purl.obolibrary.o
 
 # Class: <http://purl.obolibrary.org/obo/UO_1000037> (torque unit)
 
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/UO_1000037> "A unit which is a standard measure of the tendency of a force to rotate an object about an axis, fulcrum, or pivot."@en)
+AnnotationAssertion(Annotation(oboInOwl:hasDbXref "https://orcid.org/0000-0001-8613-1447") Annotation(oboInOwl:hasDbXref "https://orcid.org/0000-0002-2748-7993") Annotation(oboInOwl:hasDbXref "https://orcid.org/0009-0007-1391-4986") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/UO_1000037> "A unit which is a standard measure of the tendency of a force to rotate an object about an axis, fulcrum, or pivot."@en)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/UO_1000037> "torque unit"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/UO_1000037> <http://purl.obolibrary.org/obo/UO_0000000>)
 
@@ -4675,7 +4675,7 @@ SubClassOf(<http://purl.obolibrary.org/obo/UO_1000044> <http://purl.obolibrary.o
 
 # Class: <http://purl.obolibrary.org/obo/UO_1000045> (force constant unit)
 
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/UO_1000045> "A unit which is a standard measure of the restoring force exerted by a system per unit of displacement, typically representing the stiffness of a spring or harmonic potential."@en)
+AnnotationAssertion(Annotation(oboInOwl:hasDbXref "https://orcid.org/0000-0001-8613-1447") Annotation(oboInOwl:hasDbXref "https://orcid.org/0000-0002-2748-7993") Annotation(oboInOwl:hasDbXref "https://orcid.org/0009-0007-1391-4986") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/UO_1000045> "A unit which is a standard measure of the restoring force exerted by a system per unit of displacement, typically representing the stiffness of a spring or harmonic potential."@en)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/UO_1000045> "force constant unit"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/UO_1000045> <http://purl.obolibrary.org/obo/UO_0000000>)
 
