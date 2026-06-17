@@ -4406,8 +4406,8 @@ SubClassOf(<http://purl.obolibrary.org/obo/UO_1000003> <http://purl.obolibrary.o
 # Class: <http://purl.obolibrary.org/obo/UO_1000004> (inverse picosecond)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/UO_1000004> "A frequency unit which is equal to one cycle or occurrence per picosecond."@en)
-AnnotationAssertion(oboInOwl:hasExactSynonym <http://purl.obolibrary.org/obo/UO_1000004> "1/ps"@en)
 AnnotationAssertion(oboInOwl:hasExactSynonym <http://purl.obolibrary.org/obo/UO_1000004> "ps^[-1]")
+AnnotationAssertion(oboInOwl:hasExactSynonym <http://purl.obolibrary.org/obo/UO_1000004> "1/ps")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/UO_1000004> "inverse picosecond"@en)
 EquivalentClasses(<http://purl.obolibrary.org/obo/UO_1000004> ObjectOneOf(<http://purl.obolibrary.org/obo/UO_1000004>))
 SubClassOf(<http://purl.obolibrary.org/obo/UO_1000004> <http://purl.obolibrary.org/obo/UO_0000105>)
@@ -4484,7 +4484,7 @@ SubClassOf(<http://purl.obolibrary.org/obo/UO_1000015> <http://purl.obolibrary.o
 # Class: <http://purl.obolibrary.org/obo/UO_1000016> (kilojoule per mole per radian)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/UO_1000016> "A molar torque unit which is equal to one kilojoule of energy per mole per radian of angle."@en)
-AnnotationAssertion(oboInOwl:hasExactSynonym <http://purl.obolibrary.org/obo/UO_1000016> "kJ/mol/rad"@en)
+AnnotationAssertion(oboInOwl:hasExactSynonym <http://purl.obolibrary.org/obo/UO_1000016> "kJ/mol/rad")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/UO_1000016> "kilojoule per mole per radian"@en)
 EquivalentClasses(<http://purl.obolibrary.org/obo/UO_1000016> ObjectOneOf(<http://purl.obolibrary.org/obo/UO_1000016>))
 SubClassOf(<http://purl.obolibrary.org/obo/UO_1000016> <http://purl.obolibrary.org/obo/UO_1000009>)
@@ -4588,7 +4588,7 @@ SubClassOf(<http://purl.obolibrary.org/obo/UO_1000029> <http://purl.obolibrary.o
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/UO_1000030> "A molar energy unit which is equal to one kilojoule of energy per one mole of substance."@en)
 AnnotationAssertion(oboInOwl:hasExactSynonym <http://purl.obolibrary.org/obo/UO_1000030> "kJ mol^[-1]")
-AnnotationAssertion(oboInOwl:hasExactSynonym <http://purl.obolibrary.org/obo/UO_1000030> "kJ/mol"@en)
+AnnotationAssertion(oboInOwl:hasExactSynonym <http://purl.obolibrary.org/obo/UO_1000030> "kJ/mol")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/UO_1000030> "kilojoule per mole"@en)
 EquivalentClasses(<http://purl.obolibrary.org/obo/UO_1000030> ObjectOneOf(<http://purl.obolibrary.org/obo/UO_1000030>))
 SubClassOf(<http://purl.obolibrary.org/obo/UO_1000030> <http://purl.obolibrary.org/obo/UO_1000028>)
@@ -4713,8 +4713,8 @@ SubClassOf(<http://purl.obolibrary.org/obo/UO_1000049> <http://purl.obolibrary.o
 # Class: <http://purl.obolibrary.org/obo/UO_1000050> (inverse square nanometer)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/UO_1000050> "A surface number density unit which is defined as the number of entities per one square nanometer of surface area."@en)
-AnnotationAssertion(oboInOwl:hasExactSynonym <http://purl.obolibrary.org/obo/UO_1000050> "1/nm^[2]"@en)
-AnnotationAssertion(oboInOwl:hasExactSynonym <http://purl.obolibrary.org/obo/UO_1000050> "nm^[-2]"@en)
+AnnotationAssertion(oboInOwl:hasExactSynonym <http://purl.obolibrary.org/obo/UO_1000050> "1/nm^[2]")
+AnnotationAssertion(oboInOwl:hasExactSynonym <http://purl.obolibrary.org/obo/UO_1000050> "nm^[-2]")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/UO_1000050> "inverse square nanometer"@en)
 EquivalentClasses(<http://purl.obolibrary.org/obo/UO_1000050> ObjectOneOf(<http://purl.obolibrary.org/obo/UO_1000050>))
 SubClassOf(<http://purl.obolibrary.org/obo/UO_1000050> <http://purl.obolibrary.org/obo/UO_1000049>)
@@ -4773,8 +4773,8 @@ SubClassOf(<http://purl.obolibrary.org/obo/UO_1000057> <http://purl.obolibrary.o
 # Class: <http://purl.obolibrary.org/obo/UO_1000058> (inverse bar)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/UO_1000058> "A compressibility unit which is equal to the reciprocal of one bar of pressure."@en)
-AnnotationAssertion(oboInOwl:hasExactSynonym <http://purl.obolibrary.org/obo/UO_1000058> "1/bar"@en)
 AnnotationAssertion(oboInOwl:hasExactSynonym <http://purl.obolibrary.org/obo/UO_1000058> "bar^[-1]")
+AnnotationAssertion(oboInOwl:hasExactSynonym <http://purl.obolibrary.org/obo/UO_1000058> "1/bar")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/UO_1000058> "inverse bar"@en)
 EquivalentClasses(<http://purl.obolibrary.org/obo/UO_1000058> ObjectOneOf(<http://purl.obolibrary.org/obo/UO_1000058>))
 SubClassOf(<http://purl.obolibrary.org/obo/UO_1000058> <http://purl.obolibrary.org/obo/UO_1000057>)
@@ -5543,6 +5543,7 @@ SubClassOf(<http://purl.obolibrary.org/obo/UO_1010051> <http://purl.obolibrary.o
 
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/UO_1010060> "gray per minute based unit")
 SubClassOf(<http://purl.obolibrary.org/obo/UO_1010060> <http://purl.obolibrary.org/obo/UO_0000129>)
+
 
 
 )
