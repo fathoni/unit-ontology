@@ -4403,14 +4403,15 @@ AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/UO_1000003> "cubi
 EquivalentClasses(<http://purl.obolibrary.org/obo/UO_1000003> ObjectOneOf(<http://purl.obolibrary.org/obo/UO_1000003>))
 SubClassOf(<http://purl.obolibrary.org/obo/UO_1000003> <http://purl.obolibrary.org/obo/UO_0000095>)
 
-# Class: <http://purl.obolibrary.org/obo/UO_1000004> (count per picosecond)
+# Class: <http://purl.obolibrary.org/obo/UO_1000004> (reciprocal picosecond)
 
 AnnotationAssertion(Annotation(oboInOwl:hasDbXref "https://orcid.org/0000-0001-8613-1447") Annotation(oboInOwl:hasDbXref "https://orcid.org/0000-0002-2748-7993") Annotation(oboInOwl:hasDbXref "https://orcid.org/0009-0007-1391-4986") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/UO_1000004> "A frequency unit which is equal to one cycle or occurrence per picosecond."@en)
 AnnotationAssertion(oboInOwl:hasExactSynonym <http://purl.obolibrary.org/obo/UO_1000004> "1/ps")
 AnnotationAssertion(oboInOwl:hasExactSynonym <http://purl.obolibrary.org/obo/UO_1000004> "cycle per picosecond")
 AnnotationAssertion(oboInOwl:hasExactSynonym <http://purl.obolibrary.org/obo/UO_1000004> "inverse picosecond")
 AnnotationAssertion(oboInOwl:hasExactSynonym <http://purl.obolibrary.org/obo/UO_1000004> "ps^[-1]")
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/UO_1000004> "count per picosecond"@en)
+AnnotationAssertion(oboInOwl:hasExactSynonym <http://purl.obolibrary.org/obo/UO_1000004> "count per picosecond")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/UO_1000004> "reciprocal picosecond")
 EquivalentClasses(<http://purl.obolibrary.org/obo/UO_1000004> ObjectOneOf(<http://purl.obolibrary.org/obo/UO_1000004>))
 SubClassOf(<http://purl.obolibrary.org/obo/UO_1000004> <http://purl.obolibrary.org/obo/UO_0000105>)
 
@@ -4687,27 +4688,29 @@ AnnotationAssertion(Annotation(oboInOwl:hasDbXref "https://orcid.org/0000-0001-8
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/UO_1000046> "spatial frequency unit"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/UO_1000046> <http://purl.obolibrary.org/obo/UO_0000000>)
 
-# Class: <http://purl.obolibrary.org/obo/UO_1000047> (count per nanometer)
+# Class: <http://purl.obolibrary.org/obo/UO_1000047> (reciprocal nanometer)
 
 AnnotationAssertion(Annotation(oboInOwl:hasDbXref "https://orcid.org/0000-0001-8613-1447") Annotation(oboInOwl:hasDbXref "https://orcid.org/0000-0002-2748-7993") Annotation(oboInOwl:hasDbXref "https://orcid.org/0009-0007-1391-4986") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/UO_1000047> "A spatial frequency unit which is equal to one cycle or occurrence per nanometer of distance."@en)
 AnnotationAssertion(oboInOwl:hasExactSynonym <http://purl.obolibrary.org/obo/UO_1000047> "1/nm")
 AnnotationAssertion(oboInOwl:hasExactSynonym <http://purl.obolibrary.org/obo/UO_1000047> "cycle per nanometer")
 AnnotationAssertion(oboInOwl:hasExactSynonym <http://purl.obolibrary.org/obo/UO_1000047> "inverse nanometer")
 AnnotationAssertion(oboInOwl:hasExactSynonym <http://purl.obolibrary.org/obo/UO_1000047> "nm^[-1]")
+AnnotationAssertion(oboInOwl:hasExactSynonym <http://purl.obolibrary.org/obo/UO_1000047> "count per nanometer")
 AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/UO_1000047> "Spatial frequency unit used as a measure of image resolution or object feature size."@en)
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/UO_1000047> "count per nanometer"@en)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/UO_1000047> "reciprocal nanometer"@en)
 EquivalentClasses(<http://purl.obolibrary.org/obo/UO_1000047> ObjectOneOf(<http://purl.obolibrary.org/obo/UO_1000047>))
 SubClassOf(<http://purl.obolibrary.org/obo/UO_1000047> <http://purl.obolibrary.org/obo/UO_1000046>)
 
-# Class: <http://purl.obolibrary.org/obo/UO_1000048> (count per centimeter)
+# Class: <http://purl.obolibrary.org/obo/UO_1000048> (reciprocal centimeter)
 
 AnnotationAssertion(Annotation(oboInOwl:hasDbXref "https://orcid.org/0000-0001-8613-1447") Annotation(oboInOwl:hasDbXref "https://orcid.org/0000-0002-2748-7993") Annotation(oboInOwl:hasDbXref "https://orcid.org/0009-0007-1391-4986") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/UO_1000048> "A spatial frequency unit which is equal to one cycle or occurrence per centimeter of distance."@en)
 AnnotationAssertion(oboInOwl:hasExactSynonym <http://purl.obolibrary.org/obo/UO_1000048> "1/cm")
 AnnotationAssertion(oboInOwl:hasExactSynonym <http://purl.obolibrary.org/obo/UO_1000048> "cm^[-1]")
 AnnotationAssertion(oboInOwl:hasExactSynonym <http://purl.obolibrary.org/obo/UO_1000048> "inverse centimeter")
 AnnotationAssertion(oboInOwl:hasExactSynonym <http://purl.obolibrary.org/obo/UO_1000048> "wavenumber")
+AnnotationAssertion(oboInOwl:hasExactSynonym <http://purl.obolibrary.org/obo/UO_1000048> "count per centimeter")
 AnnotationAssertion(oboInOwl:hasRelatedSynonym <http://purl.obolibrary.org/obo/UO_1000048> "cycle per centimeter")
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/UO_1000048> "count per centimeter"@en)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/UO_1000048> "reciprocal centimeter"@en)
 EquivalentClasses(<http://purl.obolibrary.org/obo/UO_1000048> ObjectOneOf(<http://purl.obolibrary.org/obo/UO_1000048>))
 SubClassOf(<http://purl.obolibrary.org/obo/UO_1000048> <http://purl.obolibrary.org/obo/UO_1000046>)
 
@@ -4717,13 +4720,14 @@ AnnotationAssertion(Annotation(oboInOwl:hasDbXref "https://orcid.org/0000-0001-8
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/UO_1000049> "surface number density unit"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/UO_1000049> <http://purl.obolibrary.org/obo/UO_0000182>)
 
-# Class: <http://purl.obolibrary.org/obo/UO_1000050> (count per square nanometer)
+# Class: <http://purl.obolibrary.org/obo/UO_1000050> (reciprocal square nanometer)
 
 AnnotationAssertion(Annotation(oboInOwl:hasDbXref "https://orcid.org/0000-0001-8613-1447") Annotation(oboInOwl:hasDbXref "https://orcid.org/0000-0002-2748-7993") Annotation(oboInOwl:hasDbXref "https://orcid.org/0009-0007-1391-4986") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/UO_1000050> "A surface number density unit which is defined as the number of entities per one square nanometer of surface area."@en)
 AnnotationAssertion(oboInOwl:hasExactSynonym <http://purl.obolibrary.org/obo/UO_1000050> "1/nm^[2]")
 AnnotationAssertion(oboInOwl:hasExactSynonym <http://purl.obolibrary.org/obo/UO_1000050> "inverse square nanometer")
 AnnotationAssertion(oboInOwl:hasExactSynonym <http://purl.obolibrary.org/obo/UO_1000050> "nm^[-2]")
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/UO_1000050> "count per square nanometer"@en)
+AnnotationAssertion(oboInOwl:hasExactSynonym <http://purl.obolibrary.org/obo/UO_1000050> "count per square nanometer")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/UO_1000050> "reciprocal square nanometer"@en)
 EquivalentClasses(<http://purl.obolibrary.org/obo/UO_1000050> ObjectOneOf(<http://purl.obolibrary.org/obo/UO_1000050>))
 SubClassOf(<http://purl.obolibrary.org/obo/UO_1000050> <http://purl.obolibrary.org/obo/UO_1000049>)
 
@@ -4778,14 +4782,15 @@ AnnotationAssertion(Annotation(oboInOwl:hasDbXref "https://orcid.org/0000-0001-8
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/UO_1000057> "compressibility unit"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/UO_1000057> <http://purl.obolibrary.org/obo/UO_0000000>)
 
-# Class: <http://purl.obolibrary.org/obo/UO_1000058> (per bar)
+# Class: <http://purl.obolibrary.org/obo/UO_1000058> (reciprocal bar)
 
 AnnotationAssertion(Annotation(oboInOwl:hasDbXref "https://orcid.org/0000-0001-8613-1447") Annotation(oboInOwl:hasDbXref "https://orcid.org/0000-0002-2748-7993") Annotation(oboInOwl:hasDbXref "https://orcid.org/0009-0007-1391-4986") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/UO_1000058> "A compressibility unit which is equal to the reciprocal of one bar of pressure."@en)
 AnnotationAssertion(oboInOwl:hasExactSynonym <http://purl.obolibrary.org/obo/UO_1000058> "1/bar")
 AnnotationAssertion(oboInOwl:hasExactSynonym <http://purl.obolibrary.org/obo/UO_1000058> "bar^[-1]")
 AnnotationAssertion(oboInOwl:hasExactSynonym <http://purl.obolibrary.org/obo/UO_1000058> "inverse bar")
+AnnotationAssertion(oboInOwl:hasExactSynonym <http://purl.obolibrary.org/obo/UO_1000058> "per bar")
 AnnotationAssertion(oboInOwl:hasRelatedSynonym <http://purl.obolibrary.org/obo/UO_1000058> "volume fraction per bar")
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/UO_1000058> "per bar"@en)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/UO_1000058> "reciprocal bar"@en)
 EquivalentClasses(<http://purl.obolibrary.org/obo/UO_1000058> ObjectOneOf(<http://purl.obolibrary.org/obo/UO_1000058>))
 SubClassOf(<http://purl.obolibrary.org/obo/UO_1000058> <http://purl.obolibrary.org/obo/UO_1000057>)
 
