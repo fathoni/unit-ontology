@@ -4668,15 +4668,15 @@ AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/UO_1000041> "kilo
 EquivalentClasses(<http://purl.obolibrary.org/obo/UO_1000041> ObjectOneOf(<http://purl.obolibrary.org/obo/UO_1000041>))
 SubClassOf(<http://purl.obolibrary.org/obo/UO_1000041> <http://purl.obolibrary.org/obo/UO_1000039>)
 
-# Class: <http://purl.obolibrary.org/obo/UO_1000043> (anharmonic force constant unit)
+# Class: <http://purl.obolibrary.org/obo/UO_1000043> (molar anharmonic force constant unit)
 
 AnnotationAssertion(Annotation(oboInOwl:hasDbXref "https://orcid.org/0000-0001-8613-1447") Annotation(oboInOwl:hasDbXref "https://orcid.org/0000-0002-2748-7993") Annotation(oboInOwl:hasDbXref "https://orcid.org/0009-0007-1391-4986") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/UO_1000043> "A unit which is a standard measure of the higher-order derivative of the potential energy surface, representing deviations from perfect harmonic (quadratic) motions per mole of a given substance."@en)
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/UO_1000043> "anharmonic force constant unit"@en)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/UO_1000043> "molar anharmonic force constant unit"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/UO_1000043> <http://purl.obolibrary.org/obo/UO_1000045>)
 
 # Class: <http://purl.obolibrary.org/obo/UO_1000044> (kilojoule per mole per nanometer to the fourth)
 
-AnnotationAssertion(Annotation(oboInOwl:hasDbXref "https://orcid.org/0000-0001-8613-1447") Annotation(oboInOwl:hasDbXref "https://orcid.org/0000-0002-2748-7993") Annotation(oboInOwl:hasDbXref "https://orcid.org/0009-0007-1391-4986") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/UO_1000044> "An anharmonic force constant unit which is equal to one kilojoule per mole per quartic nanometer."@en)
+AnnotationAssertion(Annotation(oboInOwl:hasDbXref "https://orcid.org/0000-0001-8613-1447") Annotation(oboInOwl:hasDbXref "https://orcid.org/0000-0002-2748-7993") Annotation(oboInOwl:hasDbXref "https://orcid.org/0009-0007-1391-4986") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/UO_1000044> "A molar anharmonic force constant unit which is equal to one kilojoule per mole per quartic nanometer."@en)
 AnnotationAssertion(oboInOwl:hasExactSynonym <http://purl.obolibrary.org/obo/UO_1000044> "kJ/mol/nm^[4]")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/UO_1000044> "kilojoule per mole per nanometer to the fourth"@en)
 EquivalentClasses(<http://purl.obolibrary.org/obo/UO_1000044> ObjectOneOf(<http://purl.obolibrary.org/obo/UO_1000044>))
