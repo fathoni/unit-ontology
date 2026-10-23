@@ -4754,7 +4754,7 @@ SubClassOf(<http://purl.obolibrary.org/obo/UO_1000052> <http://purl.obolibrary.o
 
 # Class: <http://purl.obolibrary.org/obo/UO_1000053> (friction coefficient unit)
 
-AnnotationAssertion(Annotation(oboInOwl:hasDbXref "https://orcid.org/0000-0001-8613-1447") Annotation(oboInOwl:hasDbXref "https://orcid.org/0000-0002-2748-7993") Annotation(oboInOwl:hasDbXref "https://orcid.org/0009-0007-1391-4986") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/UO_1000053> "A unit which is a standard measure of the ratio of the frictional force resisting motion between two surfaces to the normal force pressing them together per unit of its velocity."@en)
+AnnotationAssertion(Annotation(oboInOwl:hasDbXref "https://orcid.org/0000-0001-8613-1447") Annotation(oboInOwl:hasDbXref "https://orcid.org/0000-0002-2748-7993") Annotation(oboInOwl:hasDbXref "https://orcid.org/0009-0007-1391-4986") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/UO_1000053> "A unit which is a standard measure of the proportionality coefficient relating the frictional drag force acting on a particle to its velocity relative to the surrounding medium."@en)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/UO_1000053> "friction coefficient unit"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/UO_1000053> <http://purl.obolibrary.org/obo/UO_0000280>)
 
