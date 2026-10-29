@@ -5337,7 +5337,7 @@ SubClassOf(<http://purl.obolibrary.org/obo/UO_1000265> <http://purl.obolibrary.o
 
 # Class: <http://purl.obolibrary.org/obo/UO_1000266> (electronvolt based unit)
 
-AnnotationAssertion(Annotation(oboInOwl:hasDbXref "https://orcid.org/0000-0001-8613-1447") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/UO_1000266> "An energy unit which is an electronvolt or a multiple/submultiple of an electronvolt."@en)
+AnnotationAssertion(Annotation(oboInOwl:hasDbXref "https://orcid.org/0000-0001-8613-1447") Annotation(oboInOwl:hasDbXref "https://orcid.org/0000-0002-2748-7993") Annotation(oboInOwl:hasDbXref "https://orcid.org/0009-0007-1391-4986") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/UO_1000266> "An energy unit which is an electronvolt or a multiple/submultiple of an electronvolt."@en)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/UO_1000266> "electronvolt based unit")
 SubClassOf(<http://purl.obolibrary.org/obo/UO_1000266> <http://purl.obolibrary.org/obo/UO_0000111>)
 
